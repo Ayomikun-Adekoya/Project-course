@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<style>
+    main{
+        background-color: #238492;
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+    .box{
+        background-color: #9DD7B1;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        margin: 50px;
+        width: 400px;
+        height: 400px;
+        text-align: center;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    .align{
+        display: flex;
+        align-items: center;
+    }
+    h2{
+        padding-top: 200px;
+        font-size: 30px;
+        font-family: cursive;
+        color: #15606b;
+    }
+</style>
+<html>
+    <main class="align">
+        <div class="box"> 
+            <a href="file:///C:/Users/MULTIPLE%20LAPTOP/Documents/AYOMIDES%20WORK/Project%202/add%20course.html"><h2>ADD COURSE</h2></a>
+        </div>
+
+        <div class="box">
+            <a href="file:///C:/Users/MULTIPLE%20LAPTOP/Documents/AYOMIDES%20WORK/Project%202/delete%20course.html"><h2>DELETE COURSE</h2></a>
+        </div>
+
+        <div class="box">
+            <a href="file:///C:/Users/MULTIPLE%20LAPTOP/Documents/AYOMIDES%20WORK/Project%202/edit%20course.html"><h2>EDIT COURSE</h2></a>
+        </div>
+
+    </main>
+</html>
