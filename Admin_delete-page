@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<style>
+    main{
+        background-color: #238492;
+        padding-bottom: 50px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .box{
+        background-color: #9DD7B1;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        margin: 50px;
+        width: 600px;
+        height: 540px;
+        text-align: center;
+    }
+
+    img{
+        margin-top: 30px;
+        width: 400px;
+        height: 300px
+    }
+
+    button:hover {
+    animation-fill-mode: forwards;
+    animation-name: hover;
+    animation-duration: 1s;
+  }
+
+  @keyframes hover {
+    100% {
+      background-color: rgb(105, 189, 157);
+    }
+  }
+    button{
+        margin-left: 40%;
+        margin-top: 70px;
+        display: block;
+        width: 20%;
+        padding: 5px;
+        background-color: hsl(146, 13%, 35%);
+        text-color: hsl(236, 63%, 5%);
+        color: inherit;
+        border-radius: 5px;
+        cursor: pointer;
+        
+    }
+
+</style>
+<html>
+    <main>
+        <div class="box">
+            <div>
+                <img src="https://www.aiming.in/wp-content/uploads/2017/08/Library-Science-Courses.jpg" alt="Courses Image">
+            </div>
+            <div>
+                <h2>LIBRARY STUDIES</h2>
+            </div>
+            <div>
+                <code>"This the extensive studies of book management in a library setting"</code>
+            </div>
+            <div>
+                <button id="button" type="submit"> DELETE</button>
+            </div>
+           
+        </div>
+    </main>
+</html>
